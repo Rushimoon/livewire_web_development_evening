@@ -1,0 +1,30 @@
+#container{
+    border: 2px solid black;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;  
+    justify-content: space-evenly;
+    justify-content: baseline;
+    justify-content: center;
+    justify-content:end ;
+    justify-content: flex-start;
+    /* gap: 50px; */
+    align-items: center;
+    align-items: end;
+    justify-content: end;
+    align-items: baseline;
+    text-align: center;
+    text-align: justify;
+}
+.raisoni{
+    height: 50px;
+    width: 100px;
+    border: 2px solid red;
+}
+#div1{
+    border: 2px solid cyan;
+}
+
+

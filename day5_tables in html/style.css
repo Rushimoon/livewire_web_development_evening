@@ -1,0 +1,31 @@
+*{
+
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#table{
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+    border-collapse: separate;
+    margin: auto;
+}
+
+td,th{
+    width: 50px;
+    height: 20px;
+    border: 1px solid red;
+    text-align: center;
+    /* padding: 50px; */
+    padding: 25px;
+    /* padding: 25px 100px 150px 200px; */
+
+}
+
+td{
+    background-color: aqua;
+    color: brown;
+    
+}
