@@ -1,0 +1,14 @@
+#card{
+ border: 2px solid red;
+ width: 25%;
+ padding: 25px;
+
+}
+#divparent{
+    
+}
+#div1,#div2{
+    border: 2px solid black;
+    display: flex;
+    gap: 25px;
+}
