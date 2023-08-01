@@ -1,0 +1,19 @@
+#navbar{
+    border: 1px solid red;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    width: 80px;
+}
+#links{
+    border: 1px solid black;
+}
+#searchbar{
+     border: 1px solid black;
+}
+#option{
+    border: 1px solid black;
+    display: flex;
+}
