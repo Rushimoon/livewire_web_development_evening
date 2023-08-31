@@ -3,7 +3,7 @@ let d=5;
 let k="rushi"*//////852.
 
  
-  console.log("qe");
+  
 //operators
 
 a=5;
