@@ -15,23 +15,36 @@ let data=[{Title:"Cars",Year:"2006",imdbID:"tt0317219",Type:"movie",Poster:"http
 
 //  })
 
-  let obj1={
-    name:"jagruti",
-    class:"1st",
-    roll:100
-  }
-  console.log(obj1["name"])
-  let obj2={
-    name:"rutuja",
-    class:"2st",
-    roll:101
-  }
-console.log(obj2.name)
+//   let obj1={
+//     name:"jagruti",
+//     class:"1st",
+//     roll:100
 
+//   }
+//   console.log(obj1["name"])
+//   let obj2={
+//     name:"rutuja",
+//     class:"2st",
+//     roll:101
+//   }
+// console.log(obj2.name)
 
+let  container=document.getElementById("container");
  data.forEach(function(el){
    
-    
+ 
+  let card = document.createElement("div");
+  let title= document.createElement("h1");
+      title.innerText=el.Title;
+      let type= document.createElement("h1");
+     type.innerText=el.Type;
+     
+      let Poster= document.createElement("img");
+      Poster.src=el.Poster;
+      card.append(title,type,Poster);
+
+     container.append(card)
+  // console.log(el)
  })
 
 
