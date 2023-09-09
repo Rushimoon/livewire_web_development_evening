@@ -43,7 +43,7 @@ let  container=document.getElementById("container");
       Poster.src=el.Poster;
       card.append(title,type,Poster);
 
-     container.append(card)
+     container.append(cardnm                      77)
   // console.log(el)
  })
 
