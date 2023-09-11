@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+#container{
+    border: 2px solid red;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+#carddiv{
+    /* border: 1px solid black; */
+    /* width: 25%; */
+    padding: 10px 25px;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: rgba(247, 246, 246, 0.25) 0px 54px 55px, rgba(245, 244, 244, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Pimg{
+
+     width: 90%;
+     border-radius: 30px;
+
+}
