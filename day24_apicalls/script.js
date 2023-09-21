@@ -1,14 +1,20 @@
+let  button=document.getElementById("btn");
+   button.addEventListener('click',submited)
+   
+
+
 
 async function submited(){
-  
+   let inputbox=document.getElementById("input").value ;
+    
   
    try{
     
-    let mydata= await fetch(`https://www.omdbapi.com/?s=tamasha&apikey=82dd9e8`)
+    let mydata= await fetch(`https://www.omdbapi.com/?s=${inputbox}&apikey=82dd9e8`)
 
     // console.log(mydata)
     let finaldata= await mydata.json(); 
-   console.log(finaldata.Search)   
+ display(finaldata.Search)   
  
   
      }
@@ -17,9 +23,14 @@ async function submited(){
      }
 
 }
- submited()
+ 
  //https://www.omdbapi.com/?s=marvel&apikey=82dd9e8
 
 
+function display(data){
 
+   data.forEach(element => {
+      
+   });
+}
 
