@@ -1,0 +1,9 @@
+{
+    "posts": [
+      { "id": 1, "name": "rutuja", "mob": "123213213" }
+    ],
+    "comments": [
+      { "id": 1, "name": "jagriti", "mob": "123213213" }
+    ],
+    "profile": { "name": "typicode" }
+  }
