@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <button onclick="getdata()"> show data</button>
+<form action="" id="login_form">
+ <label for="name">
+    Name:
+    <input id="name" name="name"  type="text" placeholder="enter your name" >
+</label>
+<label for="email">
+    Email
+    <input id="email" name="email" type="email" placeholder="enter your email">
+</label>
+<label for="mobile">
+ Mobile
+    <input  id="mobile" name="mobile" type="number" placeholder="enter your mobile n umber">
+</label>
+<label for="pass">
+   Password
+    <input id="pass" name="pass" type="password" placeholder="enter yourpassword">
+</label>
+
+<input type="submit">
+</form>
+
+
+
+<form action="">
+    <input type="text" name="" placeholder="enter the id of item to b e del" id="itemid">
+    <input type="submit"  onclick="deldata()" >
+</form>
+
+
+<h1>update data</h1>
+<form action="" id="update_form">
+    <label for="uid">
+       id:
+        <input id="uid" name="uid"  type="text" placeholder="enter your id" >
+    </label>
+   
+    <label for="name">
+       Name:
+       <input id="name" name="name"  type="text" placeholder="enter your name" >
+   </label>
+   <label for="email">
+       Email
+       <input id="email" name="email" type="email" placeholder="enter your email">
+   </label>
+   <label for="mobile">
+    Mobile
+       <input  id="mobile" name="mobile" type="number" placeholder="enter your mobile n umber">
+   </label>
+   <label for="pass">
+      Password
+       <input id="pass" name="pass" type="password" placeholder="enter yourpassword">
+   </label>
+   
+   <input type="submit" onclick="updateData()">
+   </form>
+
+ 
+
+    
+   <h1>sort accourding to selection</h1>
+   <select name="select" id="select">
+    <option value="Year">year</option>
+    <option value="Type">type</option>
+   </select>
+   <input type="text" id="filterInp" placeholder="enter the filter crit">
+
+     
+   <button onclick="filter()" >click here to filter</button>
+
+
+    <div>
+        <button onclick="paginate(1)">1</button>
+        <button onclick="paginate(2)" >2</button>
+        <button onclick="paginate(3)" >3</button>
+        <button onclick="paginate(4)" >4</button>
+        <button onclick="paginate(5)" >5</button>
+    </div>
+   <div id="container" ></div>
+</body>
+</html>
+<script src="./index.js"></script>
